@@ -1,6 +1,6 @@
 name: CI-CD-AWS-ElasticBeastalk
 env:
-  zEB_PACKAGE_S3_BUCKET_NAME : "link81-flask-application-packages"
+  EB_PACKAGE_S3_BUCKET_NAME : "link81-flask-application-packages"
   EB_APPLICATION_NAME        : "MyFlask"
   EB_ENVIRONMENT_NAME        : "Myflask-env"
   DEPLOY_PACKAGE_NAME        : "flask_app_${{ github.sha }}.zip"
