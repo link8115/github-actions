@@ -1,4 +1,4 @@
-name: CI-CD-Pipeline-to-AWS-ElasticBeastalk
+name: CI-CD-AWS-ElasticBeastalk
 env:
   EB_PACKAGE_S3_BUCKET_NAME : "link81-flask-application-packages"
   EB_APPLICATION_NAME       : "MyFlask"
@@ -8,8 +8,7 @@ env:
 
 on: 
   push:
-    branches: 
-      - master
+    branches: [master]
 
 jobs:
   my_ci_part:
